@@ -21,7 +21,7 @@ def median_filter(image):
     # Calculate offset
     offset = 3 // 2
 
-    # Apply mask to image
+    # For every pixel, calculate and apply median of 3x3 area
     for i in range(offset, image.size[0] - offset):
         for j in range(offset, image.size[1] - offset):
             grid = [[0, 0, 0], [0, 0, 0], [0, 0, 0]]
