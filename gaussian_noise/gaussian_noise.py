@@ -1,3 +1,9 @@
+#####################################################################################
+# Adam King                                                                         #
+# CS 4410                                                                           #
+# Implements a custom Gaussian Noise Filter to create a noisy image                 #
+#####################################################################################
+
 import cv2
 import numpy as np
 
