@@ -9,7 +9,7 @@ from PIL import Image, ImageDraw
 
 
 def median_filter(image):
-    # Convert to RGB
+    # Convert to grayscale
     img = image.convert('L')
 
     # Create a new image file to output to
