@@ -43,7 +43,7 @@ def s_and_p_noise(image, salt_amount, pepper_amount):
 
 
 def main():
-    # Read the color image as a greyscale image
+    # Read the color image as a grayscale image
     image_file = cv2.imread('Fig0507a.tif', cv2.IMREAD_GRAYSCALE)
 
     # Add noise and show noisy image
