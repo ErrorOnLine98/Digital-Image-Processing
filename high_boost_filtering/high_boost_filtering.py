@@ -1,8 +1,11 @@
 #####################################################################################
 # Adam King                                                                         #
 # CS 4410                                                                           #
+# Last Updated: 11/11/2021							    #
+#####################################################################################
 # Implements the unsharp masking/high-boost filtering technique to sharpen an image #
 #####################################################################################
+
 import cv2 as cv
 import numpy as np
 from PIL import Image, ImageDraw

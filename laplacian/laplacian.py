@@ -1,6 +1,10 @@
-# Adam King
-# CS 4410
-# Implements the Laplacian enhancement technique to sharpen an image
+##########################################################################################################################
+# Adam King														 #
+# CS 4410														 #
+# Last Updated: 11/11/2021												 #
+##########################################################################################################################
+# Implements the Laplacian enhancement technique to sharpen an image							 #	
+##########################################################################################################################
 
 import numpy as np
 from PIL import Image, ImageDraw
