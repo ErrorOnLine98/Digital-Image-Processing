@@ -11,7 +11,6 @@ import numpy as np
 def gaussian_noise(image, mean, variance):
     img = image[..., ::-1] / 255.0
 
-    # Gaussian noise
     # loc = noise mean, scale = variance
     gaussian = np.random.normal(loc=mean, scale=variance, size=img.shape)
 
